@@ -2,7 +2,7 @@
 see the code
 
 var ani = new TW();
-		
+[pre]<pre><code>		
 ani.fromTo({
 	x: 5,
 	y: 200
@@ -12,3 +12,4 @@ ani.fromTo({
 }, 1111).run(function(obj) {
 	this.style.left = obj.x + "px"
 }, document.getElementById("block"));
+</code></pre>
